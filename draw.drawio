@@ -149,12 +149,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wYlh3auV7ODlc1VDACG5" name="Page-2">
-    <mxGraphModel dx="819" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5D0K3Ed3j4fbq6gXQK2J-1" value="Yeni geliştirilen işte SIP&#39;de bir sorun vardı bu sorun user a user b yi arayınca user b&#39;nin sesinin gelmemesi. Düşünüldüğünde olabilecek sorunlardan biri rtp paketlerinin doğru bir şekilde transfer olmamasıydı bunun içinde Wireshark uygulaması ile test aramaları yapılıp arkada dönen işlemler kontrol edildi, bu kontrol sırasında ekstra hatalarda giderildi mesela bir yerde portun sonuna boşluk eklenmiş ve hatalı gidiyordu orası çözüldü ve işin sonunda rtp paketlerinde sorun olduğu anlaşıldı transferde sorun vardı paket gitmiyordu bu sorunda doğru hatırlıyorsam media ile rtp nın sırasının yanlış olması sorun oluşturuyordu. Rtp nin dışında senaryo kısımındada düzenlemeler yapıldı rtpıp, bu düzeltmeler sırasında tekrar çağrı test edildiğinde işlemler 255.255.255.255 e default olarak gidiyordu bu kısımdada senaryoda yapılan düzeltme ile sorun çözüldü" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="770" height="130" as="geometry" />
+        <mxCell id="5D0K3Ed3j4fbq6gXQK2J-1" value="Yeni geliştirilen bir işte SIP ile ilgili bir sorun vardı. Sorun, kullanıcı A&#39;nın kullanıcı B&#39;yi aradığında, B&#39;nin sesinin gelmemesiydi. İlk akla gelen olasılıklardan biri, RTP paketlerinin doğru şekilde transfer edilmemesiydi. Bu yüzden Wireshark uygulamasıyla test aramaları yapılıp, arka planda gerçekleşen işlemler kontrol edildi. Bu kontrol sırasında, birkaç ekstra hata da düzeltildi. Örneğin, bir yerde port numarasının sonuna boşluk eklenmişti ve bu, hatalı veri gönderimine sebep oluyordu. Bu hata çözüldü ve en sonunda RTP paketlerinde bir sorun olduğu, yani transferde bir sıkıntı yaşandığı fark edildi. Paketler gitmiyordu. Bu sorunun, media ile RTP sıralamasının yanlış olmasından kaynaklandığı anlaşıldı. RTP&#39;nin dışında, senaryo kısmında da düzenlemeler yapıldı. Bu düzeltmeler sırasında yapılan testlerde, işlemlerin 255.255.255.255 adresine default olarak gittiği fark edildi. Bu kısımda da senaryoya yapılan bir düzenlemeyle sorun çözüldü. Senarya kısımındada rtpip düzeltildi" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="770" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
